@@ -1,10 +1,10 @@
 import streamlit as st
-import pickle
-import numpy as np
 
+import numpy as np
+import joblib
 # Load model
 with open("model.pkl", "rb") as file:
-    model = pickle.load(file)
+    model = joblib.load("model.pkl")
 
 st.title("Car Price Prediction 🚗💰")
 
