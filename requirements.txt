@@ -87,9 +87,9 @@ wheel==0.45.1
 wrapt==1.17.2
 yfinance==0.2.61
 zipp==3.23.0
-streamlit
-scikit-learn==1.5.1
+streamlit==1.41.1
+scikit-learn
 pandas
-numpy==1.23.5
+numpy
 joblib
-scipy==1.10.1
+rich<14
