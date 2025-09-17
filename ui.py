@@ -3,8 +3,8 @@ import streamlit as st
 import numpy as np
 import joblib
 # Load model
-with open("model1.pkl", "rb") as file:
-    model = joblib.load("model1.pkl")
+with open("Model1.pkl", "rb") as file:
+    model = joblib.load("Model1.pkl")
 
 st.title("Car Price Prediction 🚗💰")
 
